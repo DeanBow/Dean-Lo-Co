@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: BallPowerText
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-336.0,"y":-48.0},"guid":"b55629f3-6859-4a79-830a-a0a59dddacd8","$version":"A","$type":"Unity.VisualScripting.FixedUpdate","$id":"9"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"ProjectileSpeedText","$type":"System.String"}},"position":{"x":-528.0,"y":72.0},"guid":"e7e7ccfb-db59-4c7b-8391-8782215253d1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"chainable":false,"parameterNames":[],"member":{"name":"ToString","parameterTypes":[],"targetType":"System.Single","targetTypeName":"System.Single","$version":"A"},"defaultValues":{"target":{"$content":0.0,"$type":"System.Single"}},"position":{"x":120.0,"y":48.0},"guid":"400891fb-b64e-4a06-a816-f97e64f7eccb","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"defaultValues":{},"position":{"x":-120.0,"y":156.0},"guid":"cffe7a66-bbb0-45e5-9fe2-6eb546c307f7","$version":"A","$type":"Unity.VisualScripting.If","$id":"17"},{"defaultValues":{},"position":{"x":-420.0,"y":276.0},"guid":"dea9901d-d3e0-465a-bb65-e77941a239f3","$version":"A","$type":"Unity.VisualScripting.Null","$id":"19"},{"numeric":false,"defaultValues":{},"position":{"x":-280.0,"y":211.0},"guid":"94e33fbd-be41-4abe-9135-577194e38e6e","$version":"A","$type":"Unity.VisualScripting.Equal","$id":"21"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"dd0f8d13-fa9b-472b-9112-3787dd89eef5","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"56624e41-f037-414a-b6f2-fb966b888a20","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"4346b5e5-e3b8-46a5-bd7a-048b047eb4c3","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"null","destinationUnit":{"$ref":"21"},"destinationKey":"b","guid":"0588bc5f-87d2-429a-8bc3-57b5b6ff665f","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"21"},"destinationKey":"a","guid":"96352ea0-d2d0-4d48-ad32-aa701815709f","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"equal","destinationUnit":{"$ref":"17"},"destinationKey":"condition","guid":"56daa268-1e64-4051-ac81-5fcc371ea471","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
