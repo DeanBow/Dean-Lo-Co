@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tendrils
-  m_Shader: {fileID: -6465566751694194690, guid: bb41916726a265241aed0a68b7a9f8a9, type: 3}
+  m_Name: Aim_Icon_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: d17835c802aadac4a9b585771d3e6e78, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -33,48 +33,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 00f7ea3458a0c8c45b285f5efa696c76, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_3e7c7aa3f238418fa9fb446c898a5883_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 97acef251766e4749ba9734b66608661, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_433b991290f349a88bd9e113b03f97fb_Texture_1:
         m_Texture: {fileID: 2800000, guid: e99f634d907f77f47b9b81c9d884bdb4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4747b0965d194adeb0e4ae8a034b476f_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 4a8e435f47dd8254c9a7ed2ab035dee8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_59e46a0c744c49e7af565b1b2e90e7bc_Texture_1:
@@ -95,28 +59,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaThreshold: 0.78
+    - _Alpha_Threshold: 0.2
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _BumpScale: 1
-    - _Cutoff: 0
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _Float: 0.1
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 1
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
     - _Tiling: 0
-    - _UVSec: 0
-    - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.9019608, g: 0.30196077, b: 0.39999998, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.7169812, g: 0.33481666, b: 0.54500705, a: 0}
   m_BuildTextureStacks: []
