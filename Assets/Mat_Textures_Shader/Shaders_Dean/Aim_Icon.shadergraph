@@ -53,6 +53,9 @@
         },
         {
             "m_Id": "255e06cbbe07431e87220ae58be9f065"
+        },
+        {
+            "m_Id": "2af0fbd5b97346c4b5f803850ad4cded"
         }
     ],
     "m_GroupDatas": [],
@@ -70,6 +73,20 @@
                     "m_Id": "8e96c6994bfa44d48fb79207d56d0224"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "2af0fbd5b97346c4b5f803850ad4cded"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "4747b0965d194adeb0e4ae8a034b476f"
+                },
+                "m_SlotId": 1
             }
         },
         {
@@ -386,6 +403,41 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "2af0fbd5b97346c4b5f803850ad4cded",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -952.0,
+            "y": 246.0,
+            "width": 139.0,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "43f9746c02fe4822812e2ddc9796f746"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "21dcecb77f8c42ac9d94c91f5a4b69c8"
+    }
+}
+
+{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
     "m_ObjectId": "3b9fa09c4a7f4d25937f129441d79c31",
@@ -410,6 +462,19 @@
         "x": 0.0,
         "y": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
+    "m_ObjectId": "43f9746c02fe4822812e2ddc9796f746",
+    "m_Id": 0,
+    "m_DisplayName": "Texture2D",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_BareResource": false
 }
 
 {

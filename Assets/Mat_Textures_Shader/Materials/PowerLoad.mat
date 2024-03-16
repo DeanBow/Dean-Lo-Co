@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Aim_Icon_Mat
+  m_Name: PowerLoad
   m_Shader: {fileID: -6465566751694194690, guid: d17835c802aadac4a9b585771d3e6e78, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -54,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 4a8e435f47dd8254c9a7ed2ab035dee8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 91abd36ca4a4fb046bc1747903a82e7d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -64,5 +64,5 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _Tiling: 0
     m_Colors:
-    - _Color: {r: 0.7169812, g: 0.33481666, b: 0.54500705, a: 0}
+    - _Color: {r: 1, g: 0, b: 0.30585098, a: 0}
   m_BuildTextureStacks: []
