@@ -11,6 +11,7 @@ TagManager:
   - Projectile_PickUp_01
   - Catch
   - Projectile_Attack_01
+  - x2Multi
   layers:
   - Default
   - TransparentFX
